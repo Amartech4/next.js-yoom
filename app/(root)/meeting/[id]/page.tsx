@@ -19,7 +19,7 @@ export default function Meeting({ params: { id } }: { params: { id: string } }) 
   return (
     <main className='h-screen w-full'>
       <StreamCall call={call}>
-        <StreamTheme>
+        <StreamTheme  >
           {!isSetupComplete ? (
             <MeetingSetup setIsSetupComplete={setIsSetupComplete} />
           ): (
