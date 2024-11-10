@@ -1,3 +1,4 @@
+import CallList from '@/components/CallList'
 import React from 'react'
 
 export default function Previous() {
@@ -6,6 +7,8 @@ export default function Previous() {
         <h1 className='text-3xl font-bold'>
             previous
         </h1>
+
+        <CallList type='ended' />
     </section>
   )
 }

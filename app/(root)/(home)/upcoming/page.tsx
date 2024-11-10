@@ -1,3 +1,4 @@
+import CallList from '@/components/CallList'
 import React from 'react'
 
 export default function Upcoming() {
@@ -6,6 +7,8 @@ export default function Upcoming() {
     <h1 className='text-3xl font-bold'>
         Upcoming
     </h1>
+
+    <CallList type='upcoming' />
 </section>
   )
 }
